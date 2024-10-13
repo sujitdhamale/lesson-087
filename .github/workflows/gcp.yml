@@ -5,11 +5,11 @@ on:
     branches: [ main ]
 jobs:
   build-push-gcr:
-    name: Build and Push to GCP
+    name: 
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: lesson-087
-      PROJECT_ID: devopsbyexample-325402
+      PROJECT_ID: prj-artifact-438318
     steps:
     - name: Checkout
       uses: actions/checkout@v2
